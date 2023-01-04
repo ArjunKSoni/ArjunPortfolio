@@ -29,6 +29,7 @@ html{
     font-family: 'Merriweather', serif;
     width: 100%;
     position: absolute;
+    overflow: hidden;
 }
 /* navabr */
 nav {

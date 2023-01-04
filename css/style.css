@@ -29,7 +29,6 @@ html{
     font-family: 'Merriweather', serif;
     width: 100%;
     position: absolute;
-    overflow: hidden;
 }
 /* navabr */
 nav {
@@ -41,7 +40,7 @@ nav {
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
     position: sticky;
     z-index: 100;
-    top: 0;
+    top: 0px;
     transition: all 0.5s;
 }
 nav ul {
@@ -140,6 +139,8 @@ nav ul li a:hover {
 }
 .metex h2{
     font-size: 3rem;
+}.metex{
+    width: fit-content;
 }
 .metex p{
     font-size: 1.2rem;
@@ -406,5 +407,8 @@ h2 li{
     }
     .logo img,.cont img,.about img,.main img,.logo img{
         filter: none;
+    }
+    .body2{
+        overflow: hidden;
     }
 }
